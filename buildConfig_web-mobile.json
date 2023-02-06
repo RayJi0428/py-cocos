@@ -1,0 +1,55 @@
+{
+  "name": "game",
+  "platform": "web-mobile",
+  "buildPath": "project://build",
+  "debug": false,
+  "md5Cache": true,
+  "skipCompressTexture": false,
+  "sourceMaps": false,
+  "replaceSplashScreen": false,
+  "mainBundleCompressionType": "merge_dep",
+  "mainBundleIsRemote": false,
+  "mergeStartScene": false,
+  "experimentalEraseModules": false,
+  "compressTexture": true,
+  "packAutoAtlas": true,
+  "startScene": "664dcaf1-b7ea-42bc-947d-3272d43b737f",
+  "scenes": [
+    {
+      "url": "db://assets/Game/Scene/Game.scene",
+      "uuid": "864dbbec-ca30-4b31-9fb3-d76a3fcbb925",
+      "inBundle": false
+    },
+    {
+      "url": "db://assets/Game/Scene/TableList.scene",
+      "uuid": "83c0cc54-d669-46d1-b714-4f60ad6a7464",
+      "inBundle": false
+    },
+    {
+      "url": "db://assets/SGEngine/Debug/Scene/Debug.scene",
+      "uuid": "33f90c2b-848e-4896-b1a0-4d5c8181443c",
+      "inBundle": false
+    },
+    {
+      "url": "db://assets/SGEngine/SceneMain/Scene/SceneMain.scene",
+      "uuid": "664dcaf1-b7ea-42bc-947d-3272d43b737f",
+      "inBundle": false
+    }
+  ],
+  "outputName": "game",
+  "packages": {
+    "web-mobile": {
+      "orientation": "auto",
+      "polyfills": {
+        "asyncFunctions": true
+      },
+      "__version__": "1.0.0"
+    },
+    "cocos-service": {
+      "configID": "fff02e",
+      "services": [],
+      "__version__": "3.0.3"
+    }
+  },
+  "__version__": "1.3.2"
+}
